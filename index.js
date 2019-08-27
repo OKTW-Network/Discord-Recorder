@@ -7,3 +7,8 @@ console.log("[Info] Starting...")
 
 DiscordHandler();
 TelegramHandler();
+
+// GC
+setInterval(() => {
+    global.gc();
+},30 * 1000);
