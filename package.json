@@ -1,22 +1,22 @@
 {
-  "name": "discord-record",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
-    "start": "node index.js"
-  },
-  "author": "Sciuridae Li",
-  "license": "MIT",
-  "dependencies": {
-    "eris": "^0.10.1",
-    "ffmpeg-static": "^2.4.0",
-    "moment": "^2.24.0",
-    "moment-timezone": "^0.5.26",
-    "nan": "^2.11.1",
-    "node-gyp": "^5.0.3",
-    "node-telegram-bot-api": "^0.30.0",
-    "prism-media": "^1.1.0"
-  }
+    "name": "discord-record",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
+        "start": "node --expose-gc index.js"
+    },
+    "author": "Sciuridae Li",
+    "license": "MIT",
+    "dependencies": {
+        "eris": "^0.10.1",
+        "ffmpeg-static": "^2.4.0",
+        "moment": "^2.24.0",
+        "moment-timezone": "^0.5.26",
+        "nan": "^2.11.1",
+        "node-gyp": "^5.0.3",
+        "node-telegram-bot-api": "^0.30.0",
+        "prism-media": "^1.1.0"
+    }
 }
