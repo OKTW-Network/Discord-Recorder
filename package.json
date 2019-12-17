@@ -15,7 +15,7 @@
         "moment": "^2.24.0",
         "moment-timezone": "^0.5.27",
         "nan": "^2.11.1",
-        "node-gyp": "^5.0.5",
+        "node-gyp": "^5.0.6",
         "node-telegram-bot-api": "^0.30.0",
         "prism-media": "^1.1.0"
     }
