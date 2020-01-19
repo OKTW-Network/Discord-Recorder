@@ -16,6 +16,7 @@
         "moment-timezone": "^0.5.27",
         "nan": "^2.14.0",
         "node-gyp": "^6.1.0",
+        "node-opus": "^0.3.3",
         "node-telegram-bot-api": "^0.40.0",
         "prism-media": "^1.1.0"
     }
