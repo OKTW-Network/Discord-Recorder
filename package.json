@@ -10,13 +10,13 @@
     "author": "Sciuridae Li",
     "license": "MIT",
     "dependencies": {
-        "eris": "^0.10.1",
-        "ffmpeg-static": "^2.6.0",
+        "eris": "^0.11.2",
+        "ffmpeg-static": "^3.0.0",
         "moment": "^2.24.0",
         "moment-timezone": "^0.5.27",
-        "nan": "^2.11.1",
-        "node-gyp": "^5.0.5",
-        "node-telegram-bot-api": "^0.30.0",
+        "nan": "^2.14.0",
+        "node-gyp": "^6.1.0",
+        "node-telegram-bot-api": "^0.40.0",
         "prism-media": "^1.1.0"
     }
 }
