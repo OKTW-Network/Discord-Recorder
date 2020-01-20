@@ -10,7 +10,7 @@
     "author": "Sciuridae Li",
     "license": "MIT",
     "dependencies": {
-        "eris": "^0.11.2",
+        "eris": "git://github.com/abalabahaha/eris.git#dev",
         "ffmpeg-static": "^3.0.0",
         "moment": "^2.24.0",
         "moment-timezone": "^0.5.27",
