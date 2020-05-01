@@ -1,23 +1,27 @@
 {
-    "name": "discord-record",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
-        "start": "node --expose-gc index.js"
-    },
-    "author": "Sciuridae Li",
-    "license": "MIT",
-    "dependencies": {
-        "eris": "git://github.com/abalabahaha/eris.git#dev",
-        "ffmpeg-static": "^3.0.0",
-        "moment": "^2.24.0",
-        "moment-timezone": "^0.5.27",
-        "nan": "^2.14.0",
-        "node-gyp": "^6.1.0",
-        "node-opus": "^0.3.3",
-        "node-telegram-bot-api": "^0.40.0",
-        "prism-media": "^1.1.0"
-    }
+  "name": "discord-record",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "installMixer": "cd lib/licsonMixer/mixer && node-gyp configure build",
+    "start": "node --expose-gc index.js",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "author": "Sciuridae Li",
+  "license": "MIT",
+  "dependencies": {
+    "eris": "git://github.com/abalabahaha/eris.git#dev",
+    "ffmpeg-static": "^3.0.0",
+    "moment": "^2.24.0",
+    "moment-timezone": "^0.5.27",
+    "nan": "^2.14.0",
+    "node-gyp": "^6.1.0",
+    "node-opus": "^0.3.3",
+    "node-telegram-bot-api": "^0.40.0",
+    "prism-media": "^1.1.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
