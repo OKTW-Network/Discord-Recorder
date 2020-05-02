@@ -12,7 +12,7 @@
     "dependencies": {
         "eris": "git://github.com/abalabahaha/eris.git#dev",
         "ffmpeg-static": "^3.0.0",
-        "moment": "^2.24.0",
+        "moment": "^2.25.1",
         "moment-timezone": "^0.5.27",
         "nan": "^2.14.0",
         "node-gyp": "^6.1.0",
