@@ -18,6 +18,6 @@
         "node-gyp": "^6.1.0",
         "node-opus": "^0.3.3",
         "node-telegram-bot-api": "^0.50.0",
-        "prism-media": "^1.2.2"
+        "prism-media": "^1.2.3"
     }
 }
