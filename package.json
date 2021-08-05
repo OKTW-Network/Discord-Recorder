@@ -11,13 +11,13 @@
     "license": "MIT",
     "dependencies": {
         "eris": "git://github.com/abalabahaha/eris.git#dev",
-        "ffmpeg-static": "^4.2.2",
-        "moment": "^2.26.0",
-        "moment-timezone": "^0.5.31",
-        "nan": "^2.14.1",
+        "ffmpeg-static": "^4.4.0",
+        "moment": "^2.29.1",
+        "moment-timezone": "^0.5.33",
+        "nan": "^2.15.0",
         "node-gyp": "^6.1.0",
         "node-opus": "^0.3.3",
         "node-telegram-bot-api": "^0.50.0",
-        "prism-media": "^1.2.2"
+        "prism-media": "^1.3.1"
     }
 }
