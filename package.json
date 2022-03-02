@@ -11,7 +11,7 @@
     "license": "MIT",
     "dependencies": {
         "eris": "git://github.com/abalabahaha/eris.git#dev",
-        "ffmpeg-static": "^4.4.0",
+        "ffmpeg-static": "^5.0.0",
         "moment": "^2.29.1",
         "moment-timezone": "^0.5.33",
         "nan": "^2.15.0",
